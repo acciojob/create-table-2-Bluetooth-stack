@@ -1,10 +1,10 @@
 function createTable() {
     //Write your code here
-	let row = prompt('input number of rows');
+	let row = prompt('Input number of rows');
 	while(row==''){
-		row = prompt('please enter number of rows');
+		row = prompt('Input number of rows');
 	}
-	let col = prompt('input number of columns');
+	let col = prompt('Input number of columns');
 	row = parseInt(row);
 	col = parseInt(col);
 	// console.log(row, col)
